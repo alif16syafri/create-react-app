@@ -1,7 +1,7 @@
 {
-  "name": "react-scripts-alep",
+  "name": "aren",
   "version": "3.1.2",
-  "description": "Alep'/s Configuration and scripts for Create React App.",
+  "description": "Extended customized directories based on create-react-app",
   "repository": {
     "type": "git",
     "url": "https://github.com/alif16syafri/create-react-app.git",
