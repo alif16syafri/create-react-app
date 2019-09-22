@@ -1,12 +1,9 @@
-@import './static/styles/color.scss';
-
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color-black;
 }
 
 * {
