@@ -1,0 +1,180 @@
+@import './background.scss';
+@import './border.scss';
+@import './color.scss';
+@import './font.scss';
+@import './margin.scss';
+@import './padding.scss';
+@import './position.scss';
+@import './sizing.scss';
+@import './z-index.scss';
+
+.u-cursorPointer {
+  cursor: pointer !important;
+}
+
+.u-overflowHidden {
+  overflow: hidden !important;
+}
+
+.u-overflowXScroll {
+  overflow-x: scroll;
+}
+
+.u-overflowXHidden {
+  overflow-x: hidden;
+}
+
+.u-overflowYScroll {
+  overflow-y: scroll !important;
+}
+
+.u-overflowYHidden {
+  overflow-y: hidden !important;
+}
+
+.u-overflowXAuto {
+  overflow-x: auto;
+}
+
+.u-overflowAuto {
+  overflow: auto;
+}
+
+.u-verticalAlignTop {
+  vertical-align: top !important;
+}
+
+.u-verticalAlignMiddle {
+  vertical-align: middle !important;
+}
+
+.u-lineClamp1 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.u-lineClamp2 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.u-lineClamp3 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.u-lineClamp4 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.u-listStyleNone {
+  list-style-type: none;
+}
+
+.u-boxShadowRight2 {
+  box-shadow: 2px 0 8px 2px rgba(0, 0, 0, 0.15) !important;
+}
+
+.u-boxShadow1 {
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.u-boxShadowBottom2 {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+}
+
+.u-pointerEventsNone {
+  pointer-events: none !important;
+}
+
+.u-translateYMin50Percent {
+  transform: translateY(-50%) !important;
+}
+
+.u-resizeNone {
+  resize: none;
+}
+
+.u-hover-textUnderline:hover {
+  text-decoration: underline !important;
+}
+
+.u-opacity0 {
+  opacity: 0 !important;
+}
+
+.u-shimmer {
+  background-repeat: no-repeat;
+  -webkit-animation: shimmer 1s infinite;
+  animation: shimmer 1s infinite;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(4%, $color-gray40),
+    color-stop(25%, $color-gray20),
+    color-stop(40%, $color-gray40)
+  );
+  background: linear-gradient(to right, $color-gray40 4%, $color-gray20 25%, $color-gray40 40%);
+  background-size: 200% 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .u-sm-overflowHidden {
+    overflow: hidden !important;
+  }
+
+  .u-sm-displayNone {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .u-md-flex1 {
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+  }
+
+  .u-md-displayNone {
+    display: none !important;
+  }  
+}
+
+@media screen and (min-width: 1025px) {
+  .u-lg-displayNone {
+    display: none !important;
+  }
+}
+
+// Shimmer keyframes
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
