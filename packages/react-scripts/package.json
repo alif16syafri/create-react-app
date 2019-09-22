@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
+  "name": "react-scripts-alep",
   "version": "3.1.2",
-  "description": "Configuration and scripts for Create React App.",
+  "description": "Alep'/s Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/alif16syafri/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
