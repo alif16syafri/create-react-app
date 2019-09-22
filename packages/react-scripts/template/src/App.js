@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Button from './components/button';
 
 class App extends Component {
   render() {
@@ -8,7 +7,6 @@ class App extends Component {
         <div className="App-header">
           <h2>React App Customized</h2>
         </div>
-        <Button />
       </div>
     );
   }
