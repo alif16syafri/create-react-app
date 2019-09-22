@@ -1,0 +1,25 @@
+@import './color.scss';
+
+.u-backgroundSizeCover {
+  background-size: cover !important;
+}
+
+.u-backgroundSizeContain {
+  background-size: contain !important;
+}
+
+.u-backgroundNoRepeat {
+  background-repeat: no-repeat !important;
+}
+
+.u-backgroundPositionCenter {
+  background-position: center !important;
+}
+
+.u-backgroundColorTransparent {
+  background-color: transparent !important;
+}
+
+.u-backgroundColorWhite {
+  background: $color-white !important;
+}
