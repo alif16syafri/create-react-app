@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>React App Customized</h2>
+          <Home />
         </div>
       </div>
     );
